@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ameer Shaji K — Social Entrepreneur | Founder & CEO | HR Professional</title>
+    <meta name="description" content="Building Future Minds Through Learning, Technology & Purpose. Ameer Shaji K - Founder & CEO of Skoolguru, HR Professional, Social Entrepreneur, Trainer & Career Counselor.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6D4AFF',
+                        'primary-dark': '#5238CC',
+                        'primary-light': '#8B6FFF',
+                        lavender: '#EDE7FF',
+                        'lavender-light': '#F5F0FF',
+                        charcoal: '#1A1A1A',
+                        'charcoal-light': '#2D2D2D',
+                        'gray-body': '#555555',
+                        'gray-muted': '#888888',
+                    },
+                    fontFamily: {
+                        heading: ['Poppins', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; color: #1A1A1A; background: #FFFFFF; overflow-x: hidden; }
+
+        ::selection { background: rgba(109, 74, 255, 0.2); color: #1A1A1A; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #F5F0FF; }
+        ::-webkit-scrollbar-thumb { background: #6D4AFF; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #5238CC; }
+
+        /* Animations */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(5deg); }
+        }
+        @keyframes pulse-ring {
+            0% { transform: scale(0.8); opacity: 1; }
+            100% { transform: scale(2); opacity: 0; }
+        }
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-60px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(60px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes scaleIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        @keyframes drawLine {
+            from { height: 0; }
+            to { height: 100%; }
+        }
+        @keyframes scrollIndicator {
+            0% { opacity: 1; transform: translateY(0); }
+            50% { opacity: 0.5; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes particleFloat {
+            0% { transform: translate(0, 0) scale(1); opacity: 0.3; }
+            25% { transform: translate(30px, -40px) scale(1.1); opacity: 0.6; }
+            50% { transform: translate(-20px, -80px) scale(0.9); opacity: 0.4; }
+            75% { transform: translate(40px, -120px) scale(1.05); opacity: 0.5; }
+            100% { transform: translate(0, -160px) scale(1); opacity: 0; }
+        }
+
+        .animate-on-scroll { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+        .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+        .animate-on-scroll.visible.delay-1 { transition-delay: 0.1s; }
+        .animate-on-scroll.visible.delay-2 { transition-delay: 0.2s; }
+        .animate-on-scroll.visible.delay-3 { transition-delay: 0.3s; }
+        .animate-on-scroll.visible.delay-4 { transition-delay: 0.4s; }
+        .animate-on-scroll.visible.delay-5 { transition-delay: 0.5s; }
+        .animate-on-scroll.visible.delay-6 { transition-delay: 0.6s; }
+        .animate-on-scroll.visible.delay-7 { transition-delay: 0.7s; }
+
+        /* Hero pattern */
+        .hero-pattern {
+            background-image:
+                radial-gradient(circle at 20% 50%, rgba(109, 74, 255, 0.06) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(109, 74, 255, 0.04) 0%, transparent 50%),
+                radial-gradient(circle at 60% 80%, rgba(109, 74, 255, 0.05) 0%, transparent 50%);
+        }
+
+        /* Abstract lines */
+        .abstract-lines::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image:
+                linear-gradient(rgba(109, 74, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(109, 74, 255, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+        }
+
+        /* Floating icon styles */
+        .floating-icon {
+            position: absolute;
+            color: rgba(109, 74, 255, 0.15);
+            font-size: 24px;
+            animation: floatSlow 6s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        /* Glassmorphism card */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(109, 74, 255, 0.1);
+        }
+
+        /* Gradient text */
+        .gradient-text {
+            background: linear-gradient(135deg, #6D4AFF, #8B6FFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Magnetic button */
+        .magnetic-btn {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .magnetic-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%; left: 50%;
+            width: 0; height: 0;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        .magnetic-btn:hover::before {
+            width: 300px; height: 300px;
+        }
+
+        /* Timeline */
+        .timeline-line {
+            position: absolute;
+            left: 24px;
+            top: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #6D4AFF, #EDE7FF);
+        }
+
+        /* Service card hover */
+        .service-card {
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(109, 74, 255, 0.15);
+        }
+        .service-card:hover .service-icon {
+            transform: scale(1.1) rotate(5deg);
+            background: #6D4AFF;
+            color: white;
+        }
+        .service-icon {
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* Expertise card */
+        .expertise-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .expertise-card:hover {
+            transform: translateY(-6px) scale(1.02);
+            border-color: rgba(109, 74, 255, 0.3);
+            box-shadow: 0 12px 40px rgba(109, 74, 255, 0.1);
+        }
+
+        /* Testimonial */
+        .testimonial-card {
+            transition: all 0.5s;
+        }
+
+        /* Carousel */
+        .carousel-track {
+            display: flex;
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* Nav active */
+        .nav-link { position: relative; }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px; left: 0;
+            width: 0; height: 2px;
+            background: #6D4AFF;
+            transition: width 0.3s;
+        }
+        .nav-link:hover::after, .nav-link.active::after { width: 100%; }
+
+        /* Certificate card */
+        .cert-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .cert-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 48px rgba(109, 74, 255, 0.12);
+        }
+
+        /* Particle */
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(109, 74, 255, 0.15);
+            pointer-events: none;
+        }
+
+        /* Mobile menu */
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .mobile-menu.open { transform: translateX(0); }
+
+        /* Counter pulse */
+        .stat-card:hover .stat-number {
+            transform: scale(1.05);
+        }
+        .stat-number { transition: transform 0.3s; }
+
+        /* Section divider */
+        .section-divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #6D4AFF, #8B6FFF);
+            border-radius: 2px;
+        }
+
+        /* Skoolguru laptop */
+        .laptop-mockup {
+            perspective: 1000px;
+        }
+        .laptop-screen {
+            transform: rotateX(5deg);
+            transition: transform 0.6s;
+        }
+        .laptop-mockup:hover .laptop-screen {
+            transform: rotateX(0deg);
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            padding: 16px 24px;
+            background: #6D4AFF;
+            color: white;
+            border-radius: 12px;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            z-index: 10000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 10px 40px rgba(109, 74, 255, 0.3);
+        }
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Scroll progress */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #6D4AFF, #8B6FFF);
+            z-index: 9998;
+            transition: width 0.1s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="#hero" class="flex items-center gap-2 group">
+                    <div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white font-heading font-extrabold text-lg group-hover:scale-110 transition-transform duration-300">A</div>
+                    <span class="font-heading font-bold text-lg text-charcoal">Ameer Shaji K</span>
+                </a>
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="#about" class="nav-link text-sm font-medium text-gray-body hover:text-primary transition-colors">About</a>
+                    <a href="#journey" class="nav-link text-sm font-medium text-gray-body hover:text-primary transition-colors">Journey</a>
+                    <a href="#expertise" class="nav-link text-sm font-medium text-gray-body hover:text-primary transition-colors">Expertise</a>
+                    <a href="#services" class="nav-link text-sm font-medium text-gray-body hover:text-primary transition-colors">Services</a>
+                    <a href="#skoolguru" class="nav-link text-sm font-medium text-gray-body hover:text-primary transition-colors">Skoolguru</a>
+                    <a href="#contact" class="nav-link text-sm font-medium text-gray-body hover:text-primary transition-colors">Contact</a>
+                    <a href="#contact" class="magnetic-btn bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-primary-dark shadow-lg shadow-primary/20">Book Consultation</a>
+                </div>
+                <button id="menuBtn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-lavender transition-colors">
+                    <iconify-icon icon="lucide:menu" width="24" class="text-charcoal"></iconify-icon>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu fixed inset-y-0 right-0 w-80 bg-white z-[60] shadow-2xl">
+        <div class="p-6">
+            <div class="flex justify-between items-center mb-10">
+                <span class="font-heading font-bold text-lg gradient-text">Menu</span>
+                <button id="closeMenu" class="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-lavender transition-colors">
+                    <iconify-icon icon="lucide:x" width="24" class="text-charcoal"></iconify-icon>
+                </button>
+            </div>
+            <div class="flex flex-col gap-4">
+                <a href="#about" class="mobile-link py-3 px-4 rounded-xl text-gray-body font-medium hover:bg-lavender hover:text-primary transition-all">About</a>
+                <a href="#journey" class="mobile-link py-3 px-4 rounded-xl text-gray-body font-medium hover:bg-lavender hover:text-primary transition-all">Journey</a>
+                <a href="#expertise" class="mobile-link py-3 px-4 rounded-xl text-gray-body font-medium hover:bg-lavender hover:text-primary transition-all">Expertise</a>
+                <a href="#services" class="mobile-link py-3 px-4 rounded-xl text-gray-body font-medium hover:bg-lavender hover:text-primary transition-all">Services</a>
+                <a href="#skoolguru" class="mobile-link py-3 px-4 rounded-xl text-gray-body font-medium hover:bg-lavender hover:text-primary transition-all">Skoolguru</a>
+                <a href="#contact" class="mobile-link py-3 px-4 rounded-xl text-gray-body font-medium hover:bg-lavender hover:text-primary transition-all">Contact</a>
+                <a href="#contact" class="mt-4 bg-primary text-white text-center py-3 rounded-xl font-semibold hover:bg-primary-dark transition-colors">Book Consultation</a>
+            </div>
+        </div>
+    </div>
+    <div id="menuOverlay" class="fixed inset-0 bg-black/30 z-[55] hidden"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative min-h-screen flex items-center hero-pattern abstract-lines overflow-hidden">
+        <!-- Particles -->
+        <div id="particles" class="absolute inset-0 pointer-events-none"></div>
+        <!-- Floating Icons -->
+        <div class="floating-icon" style="top:15%;left:8%;animation-delay:0s;font-size:28px"><iconify-icon icon="lucide:graduation-cap"></iconify-icon></div>
+        <div class="floating-icon" style="top:25%;right:12%;animation-delay:1s;font-size:22px"><iconify-icon icon="lucide:lightbulb"></iconify-icon></div>
+        <div class="floating-icon" style="bottom:30%;left:5%;animation-delay:2s;font-size:26px"><iconify-icon icon="lucide:book-open"></iconify-icon></div>
+        <div class="floating-icon" style="top:60%;right:5%;animation-delay:0.5s;font-size:20px"><iconify-icon icon="lucide:target"></iconify-icon></div>
+        <div class="floating-icon" style="top:10%;left:45%;animation-delay:1.5s;font-size:18px"><iconify-icon icon="lucide:brain"></iconify-icon></div>
+        <div class="floating-icon" style="bottom:20%;right:25%;animation-delay:3s;font-size:24px"><iconify-icon icon="lucide:rocket"></iconify-icon></div>
+
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full pt-20">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <!-- Left: Image -->
+                <div class="relative order-2 lg:order-1" style="animation: slideInLeft 1s cubic-bezier(0.16,1,0.3,1) forwards">
+                    <div class="relative">
+                        <!-- Decorative ring -->
+                        <div class="absolute -inset-4 rounded-3xl border-2 border-primary/10" style="animation: float 6s ease-in-out infinite"></div>
+                        <div class="absolute -inset-8 rounded-3xl border border-primary/5" style="animation: float 8s ease-in-out infinite reverse"></div>
+                        <!-- Image container -->
+                        <div class="relative rounded-3xl overflow-hidden bg-lavender aspect-[3/4] max-w-md mx-auto lg:mx-0">
+                            <img src="images/1000166894.jpg" alt="Ameer Shaji K" class="w-full h-full object-cover">
+                            <!-- Overlay gradient -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent"></div>
+                            <!-- Name badge -->
+                            <div class="absolute bottom-6 left-6 right-6 glass-card rounded-2xl p-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-3 h-3 rounded-full bg-green-400 animate-pulse"></div>
+                                    <span class="text-sm font-medium text-charcoal">Available for Speaking & Consulting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Content -->
+                <div class="order-1 lg:order-2" style="animation: slideInRight 1s cubic-bezier(0.16,1,0.3,1) 0.2s both">
+                    <div class="inline-flex items-center gap-2 bg-lavender px-4 py-2 rounded-full mb-6">
+                        <div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+                        <span class="text-sm font-semibold text-primary font-heading">Social Entrepreneur & Leader</span>
+                    </div>
+                    <h1 class="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl text-charcoal leading-[1.1] tracking-tight mb-6">
+                        Building Future Minds Through <span class="gradient-text">Learning, Technology</span> & Purpose
+                    </h1>
+                    <p class="text-lg text-gray-body leading-relaxed mb-8 max-w-xl">
+                        Founder & CEO of Skoolguru <span class="text-gray-muted">|</span> HR Professional <span class="text-gray-muted">|</span> Social Entrepreneur <span class="text-gray-muted">|</span> Trainer <span class="text-gray-muted">|</span> Career Counselor
+                    </p>
+                    <div class="flex flex-wrap gap-4 mb-12">
+                        <a href="#contact" class="magnetic-btn bg-primary text-white px-8 py-4 rounded-full font-heading font-semibold text-sm tracking-wide hover:bg-primary-dark shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 flex items-center gap-2 transition-all duration-300">
+                            <iconify-icon icon="lucide:calendar" width="18"></iconify-icon>
+                            Book a Consultation
+                        </a>
+                        <a href="#journey" class="magnetic-btn bg-white text-primary border-2 border-primary/20 px-8 py-4 rounded-full font-heading font-semibold text-sm tracking-wide hover:border-primary hover:bg-lavender flex items-center gap-2 transition-all duration-300">
+                            <iconify-icon icon="lucide:arrow-right" width="18"></iconify-icon>
+                            Explore My Journey
+                        </a>
+                    </div>
+                    <!-- Quick stats -->
+                    <div class="flex gap-8">
+                        <div>
+                            <div class="font-heading font-extrabold text-3xl text-charcoal counter" data-target="10">0</div>
+                            <div class="text-sm text-gray-muted mt-1">Years Experience</div>
+                        </div>
+                        <div class="w-px bg-gray-200"></div>
+                        <div>
+                            <div class="font-heading font-extrabold text-3xl text-charcoal counter" data-target="2">0</div>
+                            <div class="text-sm text-gray-muted mt-1">Organizations Led</div>
+                        </div>
+                        <div class="w-px bg-gray-200"></div>
+                        <div>
+                            <div class="font-heading font-extrabold text-3xl text-charcoal">5K+</div>
+                            <div class="text-sm text-gray-muted mt-1">Students Impacted</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2" style="animation: scrollIndicator 2s ease-in-out infinite">
+            <span class="text-xs font-medium text-gray-muted tracking-widest uppercase">Scroll</span>
+            <iconify-icon icon="lucide:chevron-down" width="20" class="text-primary"></iconify-icon>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 lg:py-32 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate-on-scroll">
+                    <div class="inline-flex items-center gap-2 bg-lavender px-4 py-2 rounded-full mb-4">
+                        <iconify-icon icon="lucide:user" width="14" class="text-primary"></iconify-icon>
+                        <span class="text-xs font-semibold text-primary uppercase tracking-wider">Who I Am</span>
+                    </div>
+                    <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-6">
+                        About <span class="gradient-text">Ameer</span>
+                    </h2>
+                    <div class="section-divider mb-8"></div>
+                    <p class="text-gray-body leading-relaxed mb-6">
+                        Ameer Shaji K is a passionate social entrepreneur and educational innovator dedicated to transforming learning experiences through technology, leadership, and human-centered solutions.
+                    </p>
+                    <p class="text-gray-body leading-relaxed mb-8">
+                        As Founder & CEO of Skoolguru, he is committed to empowering students, educators, and institutions through innovative learning platforms while mentoring future leaders and professionals. His journey spans across HR management, hospital administration, and educational technology — creating impact at every intersection.
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-lavender rounded-full text-sm font-medium text-primary">Social Entrepreneur</span>
+                        <span class="px-4 py-2 bg-lavender rounded-full text-sm font-medium text-primary">Educational Innovator</span>
+                        <span class="px-4 py-2 bg-lavender rounded-full text-sm font-medium text-primary">HR Leader</span>
+                        <span class="px-4 py-2 bg-lavender rounded-full text-sm font-medium text-primary">Career Mentor</span>
+                    </div>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="stat-card animate-on-scroll delay-1 bg-lavender-light rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 group">
+                        <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
+                            <iconify-icon icon="lucide:briefcase" width="24" class="text-primary"></iconify-icon>
+                        </div>
+                        <div class="stat-number font-heading font-extrabold text-4xl text-charcoal counter" data-target="10">0</div>
+                        <div class="text-sm text-gray-muted mt-1 font-medium">Years of Experience</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll delay-2 bg-lavender-light rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 group">
+                        <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
+                            <iconify-icon icon="lucide:building" width="24" class="text-primary"></iconify-icon>
+                        </div>
+                        <div class="stat-number font-heading font-extrabold text-4xl text-charcoal counter" data-target="2">0</div>
+                        <div class="text-sm text-gray-muted mt-1 font-medium">Organizations Led</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll delay-3 bg-lavender-light rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 group">
+                        <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
+                            <iconify-icon icon="lucide:users" width="24" class="text-primary"></iconify-icon>
+                        </div>
+                        <div class="stat-number font-heading font-extrabold text-4xl text-charcoal counter" data-target="5000">0</div>
+                        <div class="text-sm text-gray-muted mt-1 font-medium">Students Impacted</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll delay-4 bg-lavender-light rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 group">
+                        <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
+                            <iconify-icon icon="lucide:presentation" width="24" class="text-primary"></iconify-icon>
+                        </div>
+                        <div class="stat-number font-heading font-extrabold text-4xl text-charcoal counter" data-target="50">0</div>
+                        <div class="text-sm text-gray-muted mt-1 font-medium">Workshops Conducted</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Timeline -->
+    <section id="journey" class="py-24 lg:py-32 bg-lavender-light relative">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full mb-4">
+                    <iconify-icon icon="lucide:route" width="14" class="text-primary"></iconify-icon>
+                    <span class="text-xs font-semibold text-primary uppercase tracking-wider">My Journey</span>
+                </div>
+                <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-4">
+                    The <span class="gradient-text">Path</span> So Far
+                </h2>
+                <div class="section-divider mx-auto"></div>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="timeline-line" id="timelineLine"></div>
+
+                <!-- Timeline Items -->
+                <div class="space-y-12">
+                    <!-- Item 1 -->
+                    <div class="relative pl-16 animate-on-scroll">
+                        <div class="absolute left-0 top-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white shadow-lg shadow-primary/30 z-10">
+                            <iconify-icon icon="lucide:crown" width="20"></iconify-icon>
+                        </div>
+                        <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm border border-primary/10 hover:shadow-md transition-shadow">
+                            <div class="flex flex-wrap items-center gap-3 mb-3">
+                                <span class="px-3 py-1 bg-primary text-white text-xs font-semibold rounded-full">Current</span>
+                                <span class="text-sm text-gray-muted font-medium">2020 – Present</span>
+                            </div>
+                            <h3 class="font-heading font-bold text-xl text-charcoal mb-1">Founder & CEO</h3>
+                            <p class="text-primary font-semibold mb-3">Skoolguru E-learning Platform</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Built innovative learning solutions for students & educators</li>
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Educational leadership across multiple institutions</li>
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Strategic growth initiatives & platform expansion</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="relative pl-16 animate-on-scroll">
+                        <div class="absolute left-0 top-0 w-12 h-12 rounded-full bg-primary-light flex items-center justify-center text-white shadow-lg shadow-primary-light/30 z-10">
+                            <iconify-icon icon="lucide:box" width="20"></iconify-icon>
+                        </div>
+                        <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm border border-primary/10 hover:shadow-md transition-shadow">
+                            <div class="flex flex-wrap items-center gap-3 mb-3">
+                                <span class="px-3 py-1 bg-lavender text-primary text-xs font-semibold rounded-full">New Venture</span>
+                                <span class="text-sm text-gray-muted font-medium">2026 – Present</span>
+                            </div>
+                            <h3 class="font-heading font-bold text-xl text-charcoal mb-1">Founder</h3>
+                            <p class="text-primary font-semibold mb-3">Skool Box</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Launching innovative educational product ecosystem</li>
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Bridging the gap between traditional & digital learning</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="relative pl-16 animate-on-scroll">
+                        <div class="absolute left-0 top-0 w-12 h-12 rounded-full bg-charcoal flex items-center justify-center text-white shadow-lg z-10">
+                            <iconify-icon icon="lucide:users-round" width="20"></iconify-icon>
+                        </div>
+                        <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                            <div class="flex flex-wrap items-center gap-3 mb-3">
+                                <span class="text-sm text-gray-muted font-medium">2014 – 2019</span>
+                            </div>
+                            <h3 class="font-heading font-bold text-xl text-charcoal mb-1">Senior Executive Human Resources</h3>
+                            <p class="text-primary font-semibold mb-3">Care n Cure Qatar</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Led HR operations across organizational functions</li>
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Strategic workforce planning & talent development</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="relative pl-16 animate-on-scroll">
+                        <div class="absolute left-0 top-0 w-12 h-12 rounded-full bg-gray-400 flex items-center justify-center text-white shadow-lg z-10">
+                            <iconify-icon icon="lucide:hospital" width="20"></iconify-icon>
+                        </div>
+                        <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                            <div class="flex flex-wrap items-center gap-3 mb-3">
+                                <span class="text-sm text-gray-muted font-medium">2011 – 2014</span>
+                            </div>
+                            <h3 class="font-heading font-bold text-xl text-charcoal mb-1">Hospital Administrator</h3>
+                            <p class="text-primary font-semibold mb-3">ABATE AS</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Managed hospital operations and administration</li>
+                                <li class="flex items-start gap-2 text-gray-body text-sm"><iconify-icon icon="lucide:check-circle" width="16" class="text-primary mt-0.5 flex-shrink-0"></iconify-icon>Implemented process improvements for patient care</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-24 lg:py-32 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <div class="inline-flex items-center gap-2 bg-lavender px-4 py-2 rounded-full mb-4">
+                    <iconify-icon icon="lucide:zap" width="14" class="text-primary"></iconify-icon>
+                    <span class="text-xs font-semibold text-primary uppercase tracking-wider">Core Strengths</span>
+                </div>
+                <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-4">
+                    Areas of <span class="gradient-text">Expertise</span>
+                </h2>
+                <div class="section-divider mx-auto"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="expertise-card animate-on-scroll delay-1 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:compass" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Leadership Development</h3>
+                    <p class="text-sm text-gray-muted">Building tomorrow's leaders through mentorship and strategic guidance</p>
+                </div>
+                <div class="expertise-card animate-on-scroll delay-2 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:users" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Human Resource Management</h3>
+                    <p class="text-sm text-gray-muted">Strategic HR solutions that drive organizational excellence</p>
+                </div>
+                <div class="expertise-card animate-on-scroll delay-3 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:map" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Career Counseling</h3>
+                    <p class="text-sm text-gray-muted">Guiding professionals toward fulfilling career paths</p>
+                </div>
+                <div class="expertise-card animate-on-scroll delay-4 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:mic" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Public Speaking</h3>
+                    <p class="text-sm text-gray-muted">Inspiring audiences with thought-provoking keynotes</p>
+                </div>
+                <div class="expertise-card animate-on-scroll delay-5 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:school" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Educational Consulting</h3>
+                    <p class="text-sm text-gray-muted">Transforming educational institutions for the future</p>
+                </div>
+                <div class="expertise-card animate-on-scroll delay-6 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:rocket" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Entrepreneurship</h3>
+                    <p class="text-sm text-gray-muted">Building ventures that create social impact at scale</p>
+                </div>
+                <div class="expertise-card animate-on-scroll delay-7 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:kanban" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Project Management</h3>
+                    <p class="text-sm text-gray-muted">Delivering complex projects with precision and impact</p>
+                </div>
+                <div class="expertise-card animate-on-scroll delay-7 bg-white rounded-2xl p-6 border border-gray-100 text-center group cursor-default">
+                    <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                        <iconify-icon icon="lucide:network" width="24" class="text-primary group-hover:text-white transition-colors"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-charcoal mb-2">Organizational Development</h3>
+                    <p class="text-sm text-gray-muted">Strengthening organizations through culture and structure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 lg:py-32 bg-lavender-light relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full mb-4">
+                    <iconify-icon icon="lucide:layers" width="14" class="text-primary"></iconify-icon>
+                    <span class="text-xs font-semibold text-primary uppercase tracking-wider">What I Offer</span>
+                </div>
+                <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-4">
+                    Professional <span class="gradient-text">Services</span>
+                </h2>
+                <div class="section-divider mx-auto"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="service-card animate-on-scroll delay-1 bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="service-icon w-16 h-16 bg-lavender rounded-2xl flex items-center justify-center mb-6">
+                        <iconify-icon icon="lucide:trending-up" width="28" class="text-primary"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-charcoal mb-3">Career Development Coaching</h3>
+                    <p class="text-gray-body text-sm leading-relaxed mb-6">Personalized coaching to help you navigate career transitions, set meaningful goals, and achieve professional excellence with clarity and confidence.</p>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all">
+                        Learn More <iconify-icon icon="lucide:arrow-right" width="16"></iconify-icon>
+                    </a>
+                </div>
+                <div class="service-card animate-on-scroll delay-2 bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="service-icon w-16 h-16 bg-lavender rounded-2xl flex items-center justify-center mb-6">
+                        <iconify-icon icon="lucide:compass" width="28" class="text-primary"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-charcoal mb-3">Leadership Development Programs</h3>
+                    <p class="text-gray-body text-sm leading-relaxed mb-6">Comprehensive programs designed to cultivate leadership capabilities, strategic thinking, and the vision needed to lead in today's dynamic world.</p>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all">
+                        Learn More <iconify-icon icon="lucide:arrow-right" width="16"></iconify-icon>
+                    </a>
+                </div>
+                <div class="service-card animate-on-scroll delay-3 bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="service-icon w-16 h-16 bg-lavender rounded-2xl flex items-center justify-center mb-6">
+                        <iconify-icon icon="lucide:graduation-cap" width="28" class="text-primary"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-charcoal mb-3">Educational Consulting</h3>
+                    <p class="text-gray-body text-sm leading-relaxed mb-6">Strategic guidance for institutions seeking to innovate curricula, integrate technology, and create transformative learning experiences for students.</p>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all">
+                        Learn More <iconify-icon icon="lucide:arrow-right" width="16"></iconify-icon>
+                    </a>
+                </div>
+                <div class="service-card animate-on-scroll delay-4 bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="service-icon w-16 h-16 bg-lavender rounded-2xl flex items-center justify-center mb-6">
+                        <iconify-icon icon="lucide:mic" width="28" class="text-primary"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-charcoal mb-3">Public Speaking</h3>
+                    <p class="text-gray-body text-sm leading-relaxed mb-6">Inspiring keynotes and talks on education, leadership, entrepreneurship, and social impact that move audiences to action and transformation.</p>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all">
+                        Learn More <iconify-icon icon="lucide:arrow-right" width="16"></iconify-icon>
+                    </a>
+                </div>
+                <div class="service-card animate-on-scroll delay-5 bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="service-icon w-16 h-16 bg-lavender rounded-2xl flex items-center justify-center mb-6">
+                        <iconify-icon icon="lucide:presentation" width="28" class="text-primary"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-charcoal mb-3">Organizational Training</h3>
+                    <p class="text-gray-body text-sm leading-relaxed mb-6">Customized training programs that enhance team performance, build organizational capability, and foster a culture of continuous learning.</p>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all">
+                        Learn More <iconify-icon icon="lucide:arrow-right" width="16"></iconify-icon>
+                    </a>
+                </div>
+                <div class="service-card animate-on-scroll delay-6 bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="service-icon w-16 h-16 bg-lavender rounded-2xl flex items-center justify-center mb-6">
+                        <iconify-icon icon="lucide:shield-check" width="28" class="text-primary"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl text-charcoal mb-3">HR Consulting</h3>
+                    <p class="text-gray-body text-sm leading-relaxed mb-6">Expert HR advisory services covering talent acquisition, performance management, employee engagement, and strategic workforce planning.</p>
+                    <a href="#contact" class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:gap-3 transition-all">
+                        Learn More <iconify-icon icon="lucide:arrow-right" width="16"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skoolguru Showcase -->
+    <section id="skoolguru" class="py-24 lg:py-32 bg-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-lavender/40 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <!-- Content -->
+                <div class="animate-on-scroll">
+                    <div class="inline-flex items-center gap-2 bg-lavender px-4 py-2 rounded-full mb-4">
+                        <iconify-icon icon="lucide:sparkles" width="14" class="text-primary"></iconify-icon>
+                        <span class="text-xs font-semibold text-primary uppercase tracking-wider">Flagship Venture</span>
+                    </div>
+                    <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-6">
+                        <span class="gradient-text">Skoolguru</span> E-Learning Platform
+                    </h2>
+                    <div class="section-divider mb-8"></div>
+
+                    <!-- Mission -->
+                    <div class="mb-6">
+                        <h3 class="font-heading font-bold text-lg text-charcoal mb-2 flex items-center gap-2">
+                            <iconify-icon icon="lucide:target" width="20" class="text-primary"></iconify-icon> Mission
+                        </h3>
+                        <p class="text-gray-body leading-relaxed">To democratize quality education through innovative technology, making learning accessible, engaging, and transformative for every student regardless of their background.</p>
+                    </div>
+
+                    <!-- Vision -->
+                    <div class="mb-8">
+                        <h3 class="font-heading font-bold text-lg text-charcoal mb-2 flex items-center gap-2">
+                            <iconify-icon icon="lucide:eye" width="20" class="text-primary"></iconify-icon> Vision
+                        </h3>
+                        <p class="text-gray-body leading-relaxed">A world where technology bridges educational gaps, empowering millions of learners to achieve their full potential through personalized, purpose-driven education.</p>
+                    </div>
+
+                    <!-- Impact Counters -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-lavender-light rounded-xl p-4 text-center">
+                            <div class="font-heading font-extrabold text-2xl text-charcoal counter" data-target="5000">0</div>
+                            <div class="text-xs text-gray-muted font-medium">Students Reached</div>
+                        </div>
+                        <div class="bg-lavender-light rounded-xl p-4 text-center">
+                            <div class="font-heading font-extrabold text-2xl text-charcoal counter" data-target="30">0</div>
+                            <div class="text-xs text-gray-muted font-medium">Programs Conducted</div>
+                        </div>
+                        <div class="bg-lavender-light rounded-xl p-4 text-center">
+                            <div class="font-heading font-extrabold text-2xl text-charcoal counter" data-target="15">0</div>
+                            <div class="text-xs text-gray-muted font-medium">Institutions Served</div>
+                        </div>
+                        <div class="bg-lavender-light rounded-xl p-4 text-center">
+                            <div class="font-heading font-extrabold text-2xl text-charcoal counter" data-target="100">0</div>
+                            <div class="text-xs text-gray-muted font-medium">Success Stories</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Laptop Mockup -->
+                <a href="https://www.skoolguru.in/" target="_blank" class="animate-on-scroll laptop-mockup block cursor-pointer transition-transform hover:scale-105">
+                    <div class="laptop-screen bg-charcoal rounded-2xl p-2 shadow-2xl">
+                        <div class="bg-white rounded-xl overflow-hidden">
+                            <div class="bg-gray-100 px-4 py-2 flex items-center gap-2">
+                                <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                                <div class="flex-1 mx-4">
+                                    <div class="bg-white rounded-md px-3 py-1 text-xs text-gray-muted max-w-xs">skoolguru.com</div>
+                                </div>
+                            </div>
+                            <div class="relative aspect-[16/10]">
+                                <img src="images/skoolguru-screenshot.png" alt="Skoolguru Platform" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div class="w-16 h-16 bg-white/90 backdrop-blur rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                                            <iconify-icon icon="lucide:graduation-cap" width="32" class="text-primary"></iconify-icon>
+                                        </div>
+                                        <span class="font-heading font-bold text-white text-xl drop-shadow-lg">Skoolguru</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Laptop base -->
+                    <div class="bg-charcoal-light h-4 rounded-b-xl mx-8 flex items-center justify-center">
+                        <div class="w-20 h-1 bg-gray-600 rounded-full"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-24 lg:py-32 bg-lavender-light relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full mb-4">
+                    <iconify-icon icon="lucide:award" width="14" class="text-primary"></iconify-icon>
+                    <span class="text-xs font-semibold text-primary uppercase tracking-wider">Credentials</span>
+                </div>
+                <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-4">
+                    Certifications & <span class="gradient-text">Achievements</span>
+                </h2>
+                <div class="section-divider mx-auto"></div>
+            </div>
+
+            <!-- Carousel -->
+            <div class="relative overflow-hidden" id="certCarousel">
+                <div class="carousel-track" id="certTrack">
+                    <div class="cert-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-3">
+                        <div class="bg-white rounded-2xl p-6 border border-gray-100 h-full">
+                            <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mb-4">
+                                <iconify-icon icon="lucide:brain" width="24" class="text-primary"></iconify-icon>
+                            </div>
+                            <h3 class="font-heading font-bold text-charcoal mb-2">Leading Responsible AI in Organizations</h3>
+                            <p class="text-sm text-gray-muted mb-4">Certified in ethical AI leadership and responsible implementation frameworks</p>
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 rounded-full bg-green-400"></div>
+                                <span class="text-xs text-gray-muted">Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-3">
+                        <div class="bg-white rounded-2xl p-6 border border-gray-100 h-full">
+                            <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mb-4">
+                                <iconify-icon icon="lucide:crown" width="24" class="text-primary"></iconify-icon>
+                            </div>
+                            <h3 class="font-heading font-bold text-charcoal mb-2">Leadership Certification</h3>
+                            <p class="text-sm text-gray-muted mb-4">Advanced leadership development and strategic management certification</p>
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 rounded-full bg-green-400"></div>
+                                <span class="text-xs text-gray-muted">Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-3">
+                        <div class="bg-white rounded-2xl p-6 border border-gray-100 h-full">
+                            <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mb-4">
+                                <iconify-icon icon="lucide:shield-check" width="24" class="text-primary"></iconify-icon>
+                            </div>
+                            <h3 class="font-heading font-bold text-charcoal mb-2">HR Professional Certification</h3>
+                            <p class="text-sm text-gray-muted mb-4">Professional certification in human resources management and best practices</p>
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 rounded-full bg-green-400"></div>
+                                <span class="text-xs text-gray-muted">Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-3">
+                        <div class="bg-white rounded-2xl p-6 border border-gray-100 h-full">
+                            <div class="w-14 h-14 bg-lavender rounded-xl flex items-center justify-center mb-4">
+                                <iconify-icon icon="lucide:book-open" width="24" class="text-primary"></iconify-icon>
+                            </div>
+                            <h3 class="font-heading font-bold text-charcoal mb-2">Professional Development Programs</h3>
+                            <p class="text-sm text-gray-muted mb-4">Continuous learning through professional development and executive education</p>
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 rounded-full bg-green-400"></div>
+                                <span class="text-xs text-gray-muted">Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <div class="flex justify-center gap-3 mt-8">
+                    <button id="certPrev" class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all">
+                        <iconify-icon icon="lucide:chevron-left" width="18"></iconify-icon>
+                    </button>
+                    <button id="certNext" class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all">
+                        <iconify-icon icon="lucide:chevron-right" width="18"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 lg:py-32 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <div class="inline-flex items-center gap-2 bg-lavender px-4 py-2 rounded-full mb-4">
+                    <iconify-icon icon="lucide:message-circle" width="14" class="text-primary"></iconify-icon>
+                    <span class="text-xs font-semibold text-primary uppercase tracking-wider">Testimonials</span>
+                </div>
+                <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-4">
+                    Words of <span class="gradient-text">Appreciation</span>
+                </h2>
+                <div class="section-divider mx-auto"></div>
+            </div>
+
+            <div class="relative overflow-hidden" id="testimonialCarousel">
+                <div class="carousel-track" id="testimonialTrack">
+                    <!-- Testimonial 1 -->
+                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-3">
+                        <div class="testimonial-card bg-lavender-light rounded-2xl p-8 h-full relative">
+                            <iconify-icon icon="lucide:quote" width="40" class="text-primary/15 absolute top-6 right-6"></iconify-icon>
+                            <p class="text-gray-body leading-relaxed mb-6 relative z-10">"Ameer's guidance transformed my career trajectory. His deep understanding of both education and HR makes him a truly unique mentor. The clarity he brings is remarkable."</p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <span class="font-heading font-bold text-primary text-sm">RS</span>
+                                </div>
+                                <div>
+                                    <div class="font-heading font-bold text-sm text-charcoal">Rahul S.</div>
+                                    <div class="text-xs text-gray-muted">Student</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-3">
+                        <div class="testimonial-card bg-lavender-light rounded-2xl p-8 h-full relative">
+                            <iconify-icon icon="lucide:quote" width="40" class="text-primary/15 absolute top-6 right-6"></iconify-icon>
+                            <p class="text-gray-body leading-relaxed mb-6 relative z-10">"Working with Ameer on our organizational training was a game-changer. His approach combines strategic thinking with genuine care for people's growth and development."</p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <span class="font-heading font-bold text-primary text-sm">FP</span>
+                                </div>
+                                <div>
+                                    <div class="font-heading font-bold text-sm text-charcoal">Fatima P.</div>
+                                    <div class="text-xs text-gray-muted">HR Professional</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-3">
+                        <div class="testimonial-card bg-lavender-light rounded-2xl p-8 h-full relative">
+                            <iconify-icon icon="lucide:quote" width="40" class="text-primary/15 absolute top-6 right-6"></iconify-icon>
+                            <p class="text-gray-body leading-relaxed mb-6 relative z-10">"Skoolguru has been instrumental in our institution's digital transformation. Ameer's vision for accessible education is both inspiring and practically achievable."</p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <span class="font-heading font-bold text-primary text-sm">DK</span>
+                                </div>
+                                <div>
+                                    <div class="font-heading font-bold text-sm text-charcoal">Dr. Kumar</div>
+                                    <div class="text-xs text-gray-muted">Institution Head</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-3">
+                        <div class="testimonial-card bg-lavender-light rounded-2xl p-8 h-full relative">
+                            <iconify-icon icon="lucide:quote" width="40" class="text-primary/15 absolute top-6 right-6"></iconify-icon>
+                            <p class="text-gray-body leading-relaxed mb-6 relative z-10">"Ameer's leadership workshop was the most impactful training I've attended. His real-world experience and empathetic teaching style make complex concepts accessible."</p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <span class="font-heading font-bold text-primary text-sm">AM</span>
+                                </div>
+                                <div>
+                                    <div class="font-heading font-bold text-sm text-charcoal">Anitha M.</div>
+                                    <div class="text-xs text-gray-muted">Professional</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 5 -->
+                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-3">
+                        <div class="testimonial-card bg-lavender-light rounded-2xl p-8 h-full relative">
+                            <iconify-icon icon="lucide:quote" width="40" class="text-primary/15 absolute top-6 right-6"></iconify-icon>
+                            <p class="text-gray-body leading-relaxed mb-6 relative z-10">"The career counseling session with Ameer gave me the direction I was missing. He doesn't just advise — he empowers you to think strategically about your future."</p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <span class="font-heading font-bold text-primary text-sm">SJ</span>
+                                </div>
+                                <div>
+                                    <div class="font-heading font-bold text-sm text-charcoal">Sam J.</div>
+                                    <div class="text-xs text-gray-muted">Student</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <div class="flex justify-center gap-3 mt-8">
+                    <button id="testPrev" class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all">
+                        <iconify-icon icon="lucide:chevron-left" width="18"></iconify-icon>
+                    </button>
+                    <div class="flex items-center gap-2" id="testDots"></div>
+                    <button id="testNext" class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all">
+                        <iconify-icon icon="lucide:chevron-right" width="18"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 lg:py-32 bg-lavender-light relative overflow-hidden">
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Left Content -->
+                <div class="animate-on-scroll">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full mb-4">
+                        <iconify-icon icon="lucide:send" width="14" class="text-primary"></iconify-icon>
+                        <span class="text-xs font-semibold text-primary uppercase tracking-wider">Get in Touch</span>
+                    </div>
+                    <h2 class="font-heading font-extrabold text-4xl lg:text-5xl text-charcoal tracking-tight mb-6">
+                        Let's Build a Brighter <span class="gradient-text">Future</span> Together
+                    </h2>
+                    <div class="section-divider mb-8"></div>
+                    <p class="text-gray-body leading-relaxed mb-8">Whether you're seeking career guidance, leadership training, or educational consulting — I'm here to help you and your organization reach its full potential.</p>
+
+                    <div class="space-y-5 mb-10">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                                <iconify-icon icon="lucide:mail" width="20" class="text-primary"></iconify-icon>
+                            </div>
+                            <div>
+                                <div class="text-sm text-gray-muted">Email</div>
+                                <div class="font-medium text-charcoal">ameer@skoolguru.com</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                                <iconify-icon icon="lucide:phone" width="20" class="text-primary"></iconify-icon>
+                            </div>
+                            <div>
+                                <div class="text-sm text-gray-muted">Phone</div>
+                                <div class="font-medium text-charcoal">+91 XXX XXX XXXX</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                                <iconify-icon icon="lucide:map-pin" width="20" class="text-primary"></iconify-icon>
+                            </div>
+                            <div>
+                                <div class="text-sm text-gray-muted">Location</div>
+                                <div class="font-medium text-charcoal">Kerala, India</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://www.linkedin.com/in/ameer-shaji-k" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="LinkedIn">
+                            <iconify-icon icon="lucide:linkedin" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="https://wa.me/97430448820" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="WhatsApp">
+                            <iconify-icon icon="lucide:message-circle" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="https://www.instagram.com/ameershaji_k" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="Instagram">
+                            <iconify-icon icon="lucide:instagram" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="https://www.tiktok.com/@ameer_shaji" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="TikTok">
+                            <iconify-icon icon="lucide:music" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="http://www.facebook.com/ameershajiakl" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="Facebook">
+                            <iconify-icon icon="lucide:facebook" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="https://x.com/shajiakl" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="X (Twitter)">
+                            <iconify-icon icon="lucide:twitter" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="https://www.threads.net/@ameershaji" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="Threads">
+                            <iconify-icon icon="lucide:share-2" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="https://www.pinterest.com/shajiakl" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="Pinterest">
+                            <iconify-icon icon="lucide:bookmark" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                        <a href="https://www.youtube.com/@ameershaji" target="_blank" class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm hover:bg-primary hover:text-white transition-all group" title="YouTube">
+                            <iconify-icon icon="lucide:youtube" width="18" class="text-primary group-hover:text-white"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="animate-on-scroll">
+                    <form id="contactForm" class="bg-white rounded-3xl p-8 lg:p-10 shadow-sm border border-gray-100">
+                        <div class="space-y-5">
+                            <div>
+                                <label class="block text-sm font-medium text-charcoal mb-2">Full Name</label>
+                                <input type="text" id="formName" placeholder="Your full name" required class="w-full px-4 py-3.5 rounded-xl border border-gray-200 text-charcoal placeholder:text-gray-muted text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-charcoal mb-2">Email Address</label>
+                                <input type="email" id="formEmail" placeholder="your@email.com" required class="w-full px-4 py-3.5 rounded-xl border border-gray-200 text-charcoal placeholder:text-gray-muted text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-charcoal mb-2">Phone Number</label>
+                                <input type="tel" id="formPhone" placeholder="+91 XXX XXX XXXX" class="w-full px-4 py-3.5 rounded-xl border border-gray-200 text-charcoal placeholder:text-gray-muted text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-charcoal mb-2">Message</label>
+                                <textarea id="formMessage" rows="4" placeholder="Tell me about your needs..." required class="w-full px-4 py-3.5 rounded-xl border border-gray-200 text-charcoal placeholder:text-gray-muted text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all resize-none"></textarea>
+                            </div>
+                            <button type="submit" class="magnetic-btn w-full bg-primary text-white py-4 rounded-xl font-heading font-semibold text-sm tracking-wide hover:bg-primary-dark shadow-lg shadow-primary/25 flex items-center justify-center gap-2 transition-all">
+                                <iconify-icon icon="lucide:calendar" width="18"></iconify-icon>
+                                Schedule Consultation
+                            </button>
+                            <a href="#" class="w-full border-2 border-primary/20 text-primary py-4 rounded-xl font-heading font-semibold text-sm tracking-wide hover:bg-lavender hover:border-primary/40 flex items-center justify-center gap-2 transition-all">
+                                <iconify-icon icon="lucide:linkedin" width="18"></iconify-icon>
+                                Connect on LinkedIn
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal text-white py-16 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute inset-0" style="background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 40px 40px;"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Logo & Quote -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white font-heading font-extrabold text-lg">A</div>
+                        <span class="font-heading font-bold text-xl">Ameer Shaji K</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6 max-w-md italic">
+                        "Education is not just about learning; it's about creating purpose-driven futures."
+                    </p>
+                    <div class="flex gap-3 flex-wrap">
+                        <a href="https://www.linkedin.com/in/ameer-shaji-k" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="LinkedIn"><iconify-icon icon="lucide:linkedin" width="16"></iconify-icon></a>
+                        <a href="https://wa.me/97430448820" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="WhatsApp"><iconify-icon icon="lucide:message-circle" width="16"></iconify-icon></a>
+                        <a href="https://www.instagram.com/ameershaji_k" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="Instagram"><iconify-icon icon="lucide:instagram" width="16"></iconify-icon></a>
+                        <a href="https://www.tiktok.com/@ameer_shaji" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="TikTok"><iconify-icon icon="lucide:music" width="16"></iconify-icon></a>
+                        <a href="http://www.facebook.com/ameershajiakl" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="Facebook"><iconify-icon icon="lucide:facebook" width="16"></iconify-icon></a>
+                        <a href="https://x.com/shajiakl" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="X (Twitter)"><iconify-icon icon="lucide:twitter" width="16"></iconify-icon></a>
+                        <a href="https://www.threads.net/@ameershaji" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="Threads"><iconify-icon icon="lucide:share-2" width="16"></iconify-icon></a>
+                        <a href="https://www.pinterest.com/shajiakl" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="Pinterest"><iconify-icon icon="lucide:bookmark" width="16"></iconify-icon></a>
+                        <a href="https://www.youtube.com/@ameershaji" target="_blank" class="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors" title="YouTube"><iconify-icon icon="lucide:youtube" width="16"></iconify-icon></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider mb-5">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="text-gray-400 text-sm hover:text-primary transition-colors">About</a></li>
+                        <li><a href="#journey" class="text-gray-400 text-sm hover:text-primary transition-colors">Journey</a></li>
+                        <li><a href="#expertise" class="text-gray-400 text-sm hover:text-primary transition-colors">Expertise</a></li>
+                        <li><a href="#services" class="text-gray-400 text-sm hover:text-primary transition-colors">Services</a></li>
+                        <li><a href="#contact" class="text-gray-400 text-sm hover:text-primary transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- More Links -->
+                <div>
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider mb-5">More</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#skoolguru" class="text-gray-400 text-sm hover:text-primary transition-colors">Skoolguru</a></li>
+                        <li><a href="#certifications" class="text-gray-400 text-sm hover:text-primary transition-colors">Certifications</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 text-sm hover:text-primary transition-colors">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">&copy; 2025 Ameer Shaji K. All rights reserved.</p>
+                <p class="text-gray-500 text-sm">Crafted with <span class="text-primary">purpose</span> and <span class="text-primary">vision</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast -->
+    <div id="toast" class="toast"></div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // ========== NAVIGATION ==========
+        const navbar = document.getElementById('navbar');
+        const menuBtn = document.getElementById('menuBtn');
+        const closeMenu = document.getElementById('closeMenu');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-white/90', 'backdrop-blur-xl', 'shadow-sm', 'border-b', 'border-gray-100/50');
+            } else {
+                navbar.classList.remove('bg-white/90', 'backdrop-blur-xl', 'shadow-sm', 'border-b', 'border-gray-100/50');
+            }
+        });
+
+        function openMenu() {
+            mobileMenu.classList.add('open');
+            menuOverlay.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeMenuFn() {
+            mobileMenu.classList.remove('open');
+            menuOverlay.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+        menuBtn.addEventListener('click', openMenu);
+        closeMenu.addEventListener('click', closeMenuFn);
+        menuOverlay.addEventListener('click', closeMenuFn);
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', closeMenuFn);
+        });
+
+        // ========== SCROLL PROGRESS ==========
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.getElementById('scrollProgress').style.width = scrollPercent + '%';
+        });
+
+        // ========== SCROLL ANIMATIONS ==========
+        const observerOptions = { threshold: 0.15, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+        // ========== COUNTER ANIMATION ==========
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseInt(el.dataset.target);
+                    if (el.dataset.counted) return;
+                    el.dataset.counted = true;
+                    const duration = 2000;
+                    const step = target / (duration / 16);
+                    let current = 0;
+                    const timer = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            current = target;
+                            clearInterval(timer);
+                        }
+                        if (target >= 1000) {
+                            el.textContent = Math.floor(current).toLocaleString() + '+';
+                        } else {
+                            el.textContent = Math.floor(current) + '+';
+                        }
+                    }, 16);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.counter').forEach(el => counterObserver.observe(el));
+
+        // ========== PARTICLES ==========
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 20; i++) {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
+            const size = Math.random() * 6 + 2;
+            particle.style.width = size + 'px';
+            particle.style.height = size + 'px';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.animation = `particleFloat ${Math.random() * 10 + 10}s linear infinite`;
+            particle.style.animationDelay = Math.random() * 5 + 's';
+            particlesContainer.appendChild(particle);
+        }
+
+        // ========== TIMELINE LINE ANIMATION ==========
+        const timelineLine = document.getElementById('timelineLine');
+        if (timelineLine) {
+            const timelineObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const parent = entry.target.closest('.relative');
+                        const height = parent ? parent.scrollHeight : 2000;
+                        timelineLine.style.height = '0';
+                        timelineLine.style.transition = `height 2s cubic-bezier(0.16, 1, 0.3, 1)`;
+                        requestAnimationFrame(() => {
+                            timelineLine.style.height = height + 'px';
+                        });
+                    }
+                });
+            }, { threshold: 0.1 });
+            const firstTimelineItem = document.querySelector('#journey .space-y-12 > div:first-child');
+            if (firstTimelineItem) timelineObserver.observe(firstTimelineItem);
+        }
+
+        // ========== CERTIFICATION CAROUSEL ==========
+        const certTrack = document.getElementById('certTrack');
+        const certPrev = document.getElementById('certPrev');
+        const certNext = document.getElementById('certNext');
+        let certIndex = 0;
+
+        function getCertSlideWidth() {
+            if (window.innerWidth >= 1024) return 25;
+            if (window.innerWidth >= 640) return 50;
+            return 100;
+        }
+        function updateCertCarousel() {
+            const slideWidth = getCertSlideWidth();
+            const maxIndex = Math.max(0, Math.ceil(100 / slideWidth) - Math.ceil(100 / slideWidth));
+            certIndex = Math.min(certIndex, maxIndex);
+            const offset = certIndex * slideWidth;
+            certTrack.style.transform = `translateX(-${offset}%)`;
+        }
+        certNext.addEventListener('click', () => {
+            const slideWidth = getCertSlideWidth();
+            const totalSlides = 4;
+            const visibleSlides = Math.ceil(100 / slideWidth);
+            if (certIndex < totalSlides - visibleSlides) certIndex++;
+            updateCertCarousel();
+        });
+        certPrev.addEventListener('click', () => {
+            if (certIndex > 0) certIndex--;
+            updateCertCarousel();
+        });
+
+        // ========== TESTIMONIAL CAROUSEL ==========
+        const testTrack = document.getElementById('testimonialTrack');
+        const testPrev = document.getElementById('testPrev');
+        const testNext = document.getElementById('testNext');
+        const testDots = document.getElementById('testDots');
+        let testIndex = 0;
+
+        function getTestSlideWidth() {
+            if (window.innerWidth >= 1024) return 33.333;
+            if (window.innerWidth >= 768) return 50;
+            return 100;
+        }
+        function getTotalTestSlides() { return testTrack.children.length; }
+
+        // Create dots
+        function createTestDots() {
+            testDots.innerHTML = '';
+            const total = getTotalTestSlides();
+            const visible = Math.ceil(100 / getTestSlideWidth());
+            const dotCount = Math.max(1, total - visible + 1);
+            for (let i = 0; i < dotCount; i++) {
+                const dot = document.createElement('button');
+                dot.className = `w-2 h-2 rounded-full transition-all ${i === testIndex ? 'bg-primary w-6' : 'bg-gray-300'}`;
+                dot.addEventListener('click', () => { testIndex = i; updateTestCarousel(); });
+                testDots.appendChild(dot);
+            }
+        }
+        function updateTestCarousel() {
+            const slideWidth = getTestSlideWidth();
+            const offset = testIndex * slideWidth;
+            testTrack.style.transform = `translateX(-${offset}%)`;
+            createTestDots();
+        }
+        testNext.addEventListener('click', () => {
+            const visible = Math.ceil(100 / getTestSlideWidth());
+            if (testIndex < getTotalTestSlides() - visible) testIndex++;
+            else testIndex = 0;
+            updateTestCarousel();
+        });
+        testPrev.addEventListener('click', () => {
+            if (testIndex > 0) testIndex--;
+            else testIndex = getTotalTestSlides() - Math.ceil(100 / getTestSlideWidth());
+            updateTestCarousel();
+        });
+        createTestDots();
+
+        // Auto-slide testimonials
+        setInterval(() => { testNext.click(); }, 5000);
+
+        // ========== CONTACT FORM ==========
+        const contactForm = document.getElementById('contactForm');
+        const toast = document.getElementById('toast');
+
+        function showToast(message, type = 'success') {
+            toast.textContent = message;
+            toast.style.background = type === 'success' ? '#6D4AFF' : '#EF4444';
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3500);
+        }
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('formName').value.trim();
+            const email = document.getElementById('formEmail').value.trim();
+            const message = document.getElementById('formMessage').value.trim();
+
+            if (!name || !email || !message) {
+                showToast('Please fill in all required fields.', 'error');
+                return;
+            }
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showToast('Please enter a valid email address.', 'error');
+                return;
+            }
+
+            // Simulate submission
+            const btn = contactForm.querySelector('button[type="submit"]');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<iconify-icon icon="lucide:loader-2" width="18" class="animate-spin"></iconify-icon> Sending...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                showToast('Thank you! Your message has been sent successfully. I\'ll get back to you soon.');
+                contactForm.reset();
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+            }, 1500);
+        });
+
+        // ========== ACTIVE NAV LINK ==========
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // ========== MAGNETIC BUTTON EFFECT ==========
+        document.querySelectorAll('.magnetic-btn').forEach(btn => {
+            btn.addEventListener('mousemove', (e) => {
+                const rect = btn.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px)`;
+            });
+            btn.addEventListener('mouseleave', () => {
+                btn.style.transform = 'translate(0, 0)';
+            });
+        });
+
+        // ========== KEYBOARD ACCESSIBILITY ==========
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeMenuFn();
+            }
+        });
+    });
+    </script>
+</body>
+</html>
